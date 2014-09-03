@@ -1,0 +1,9 @@
+#!/usr/bin/python
+
+from __future__ import print_function
+width = input("Enter the room's width: ") # Enter the room's width
+heights = input ("Enter the room's height: ") # Enter the room's height 
+cost = input ("Enter the cost of tile per sq foot: ") # Enter the cost of tile per sq foot
+total = ((width * heights)*cost) # calculate the total square feet
+print("The total cost is $", "%.2f" % total, sep='') # Print the result
+
